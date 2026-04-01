@@ -20,6 +20,7 @@ blocks:
             - cache restore
             - pip install --cache-dir .pip_cache -r requirements.txt
             - cache store
+            - echo hello
   - name: "\U0001F50D Code Quality"
     dependencies:
       - "\U0001F6E0️ Setup and Cache"
